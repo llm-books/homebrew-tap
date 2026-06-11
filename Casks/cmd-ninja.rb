@@ -4,22 +4,22 @@ cask "cmd-ninja" do
 
   on_macos do
     on_intel do
-      sha256 "d037951dc3dfa79bfde86d10fb6ed61989b4f6456d558f267a41bd5001c6aeb5"
+      sha256 "5762e2b0119aa2f8cda42f7663e01ae57d80c604298d64393b44edd672203ba7"
       url "https://github.com/llm-books/cmd-ninja/releases/download/v#{version}/cmd-ninja_#{version}_darwin_amd64.tar.gz"
     end
     on_arm do
-      sha256 "37be42014ba92b3c2acbf1a69b03a3daf3311f2499eee5dec789a9d8cf5b8762"
+      sha256 "b1f22ad96116e2e6777856b62297226b55e44471eefdd02e92b8e441796c969c"
       url "https://github.com/llm-books/cmd-ninja/releases/download/v#{version}/cmd-ninja_#{version}_darwin_arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "2de812b878c10fe3b5c5c3214e8953461dc331a40e192ad14089ceac6974d277"
+      sha256 "f76b042f6a8511e58002382c11a543e2f8fa62a185633f577253c1c6ea9ef6b7"
       url "https://github.com/llm-books/cmd-ninja/releases/download/v#{version}/cmd-ninja_#{version}_linux_amd64.tar.gz"
     end
     on_arm do
-      sha256 "53230cd7c8c12b7f86cca6e9d2e5a57f6650f3bd9954e3c7356e07b84c17fa87"
+      sha256 "d4b7e6bfac885274dd66c54b317455a835fdf92a0d9636c35e75d7164e043ec0"
       url "https://github.com/llm-books/cmd-ninja/releases/download/v#{version}/cmd-ninja_#{version}_linux_arm64.tar.gz"
     end
   end
