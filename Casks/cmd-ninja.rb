@@ -4,28 +4,28 @@ cask "cmd-ninja" do
 
   on_macos do
     on_intel do
-      sha256 "5762e2b0119aa2f8cda42f7663e01ae57d80c604298d64393b44edd672203ba7"
+      sha256 "e9bc182a5d9f599ca0673a5e3a1005fba0bef5c2e782ed22808d84a6e853dc37"
       url "https://github.com/llm-books/cmd-ninja/releases/download/v#{version}/cmd-ninja_#{version}_darwin_amd64.tar.gz"
     end
     on_arm do
-      sha256 "b1f22ad96116e2e6777856b62297226b55e44471eefdd02e92b8e441796c969c"
+      sha256 "3345cbd62c5628b4036381d2c6dce466a970c6e3b6ba1472e3eaaeff4fbdb8f8"
       url "https://github.com/llm-books/cmd-ninja/releases/download/v#{version}/cmd-ninja_#{version}_darwin_arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "f76b042f6a8511e58002382c11a543e2f8fa62a185633f577253c1c6ea9ef6b7"
+      sha256 "3cf991897920860276a91a23626addce0faf8c3aa7220546512f032409272c22"
       url "https://github.com/llm-books/cmd-ninja/releases/download/v#{version}/cmd-ninja_#{version}_linux_amd64.tar.gz"
     end
     on_arm do
-      sha256 "d4b7e6bfac885274dd66c54b317455a835fdf92a0d9636c35e75d7164e043ec0"
+      sha256 "4119104eafade2b96375b91472442152f9f83d2653ab665dac06a617d6fdd817"
       url "https://github.com/llm-books/cmd-ninja/releases/download/v#{version}/cmd-ninja_#{version}_linux_arm64.tar.gz"
     end
   end
 
   name "cmd-ninja"
-  desc "Plain English in, a safe shell command on your prompt line"
+  desc "Type what you need your cmd to do, press Ctrl-G, get the full command. Safe commands land on your prompt, dangerous ones don't."
   homepage "https://github.com/llm-books/cmd-ninja"
 
   livecheck do
